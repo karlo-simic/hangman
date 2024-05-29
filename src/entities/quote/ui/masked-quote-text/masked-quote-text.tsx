@@ -18,7 +18,7 @@ const MaskedQuoteTextItem = ({ char, revealed }: MaskedQuoteTextItemProps) => {
 
   return (
     <Card
-      className="xl:h-16 xl:w-10 grid place-items-center xl:text-xl cursor-default lg:h-8 lg:w-8 lg:text-base text-xs w-6 h-6"
+      className="2xl:h-16 2xl:w-10 grid place-items-center 2xl:text-xl cursor-default lg:h-8 lg:w-8 lg:text-base text-xs w-6 h-6 "
       data-testid="masked-quote-character"
       aria-label={isHidden ? "Hidden character" : char}
       role="presentation"
@@ -33,7 +33,7 @@ export const MaskedQuoteText = ({ base, revealed }: MaskedQuoteTextProps) => {
 
   return (
     <ul
-      className="flex flex-wrap xl:gap-x-8 xl:gap-y-2 gap-x-4 gap-y-1 justify-center"
+      className="flex flex-wrap 2xl:gap-x-8 2xl:gap-y-2 gap-x-4 gap-y-1 justify-center"
       aria-label="Masked Quote"
       role="list"
     >
@@ -44,7 +44,7 @@ export const MaskedQuoteText = ({ base, revealed }: MaskedQuoteTextProps) => {
           role="listitem"
         >
           <ul
-            className="flex xl:gap-2 gap-1 flex-wrap"
+            className="flex 2xl:gap-2 gap-1 flex-wrap"
             data-testid="masked-quote-character-list"
             role="list"
           >
