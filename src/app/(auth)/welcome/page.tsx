@@ -2,7 +2,7 @@ import { WelcomeForm } from "@/features/authentication/login";
 
 export default function Page() {
   return (
-    <main className="min-h-screen grid place-items-center">
+    <main className="flex-1 grid place-items-center">
       <div className="flex flex-col gap-y-16">
         <div className="flex flex-col items-center gap-y-8">
           <h1 className="text-5xl font-bold">Hangman</h1>
